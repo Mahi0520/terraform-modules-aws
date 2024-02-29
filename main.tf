@@ -16,6 +16,6 @@ module "s3_bucket" {
 
 module "iam_user1" {
   source = "./modules/iam"
-  user_name = "usermahi"
+  user_name = "usermahi88"
   group_membership = ["group1", "group2"]
 }
