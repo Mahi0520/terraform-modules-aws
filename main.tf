@@ -14,11 +14,11 @@ module "s3_bucket" {
   bucket_names = "vedan"
 }
 
-module "iam_user1" {
-  source = "./modules/iam"
-  user_name = "usermahi123"
-  group_membership = ["group1", "group2"]
-}
+# module "iam_user1" {
+#   source = "./modules/iam"
+#   user_name = "usermahi123"
+#   group_membership = ["group1", "group2"]
+# }
 
 module "elb" {
   source = "./modules/load_balancer"
